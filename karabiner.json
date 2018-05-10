@@ -51,6 +51,17 @@
                                 "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                      "type": "device_if",
+                                      "identifiers": [
+                                        {
+                                          "vendor_id": 1452,
+                                          "product_id": 544
+                                        }
+                                      ]
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "left_gui"
                                 },
@@ -62,6 +73,17 @@
                                 "type": "basic"
                             },
                             {
+                                "conditions": [
+                                    {
+                                      "type": "device_if",
+                                      "identifiers": [
+                                        {
+                                          "vendor_id": 1452,
+                                          "product_id": 544
+                                        }
+                                      ]
+                                    }
+                                ],
                                 "from": {
                                     "key_code": "left_alt"
                                 },
