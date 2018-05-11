@@ -114,9 +114,6 @@
                                 "from": {
                                     "key_code": "escape",
                                     "modifiers": {
-                                        "required": [
-                                            "right_control"
-                                        ],
                                         "optional": [
                                             "shift"
                                         ]
