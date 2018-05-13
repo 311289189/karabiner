@@ -53,13 +53,13 @@
                             {
                                 "conditions": [
                                     {
-                                      "type": "device_if",
-                                      "identifiers": [
-                                        {
-                                          "vendor_id": 1452,
-                                          "product_id": 544
-                                        }
-                                      ]
+                                        "identifiers": [
+                                            {
+                                                "product_id": 544,
+                                                "vendor_id": 1452
+                                            }
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
@@ -75,13 +75,13 @@
                             {
                                 "conditions": [
                                     {
-                                      "type": "device_if",
-                                      "identifiers": [
-                                        {
-                                          "vendor_id": 1452,
-                                          "product_id": 544
-                                        }
-                                      ]
+                                        "identifiers": [
+                                            {
+                                                "product_id": 544,
+                                                "vendor_id": 1452
+                                            }
+                                        ],
+                                        "type": "device_if"
                                     }
                                 ],
                                 "from": {
@@ -558,6 +558,19 @@
                             }
                         }
                     ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": false,
+                        "is_pointing_device": true,
+                        "product_id": 49225,
+                        "vendor_id": 1133
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": []
                 }
             ],
             "fn_function_keys": [
@@ -660,7 +673,16 @@
             ],
             "name": "Default profile",
             "selected": true,
-            "simple_modifications": [],
+            "simple_modifications": [
+                {
+                    "from": {
+                        "pointing_button": "button3"
+                    },
+                    "to": {
+                        "key_code": "mission_control"
+                    }
+                }
+            ],
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
                 "country_code": 0,
